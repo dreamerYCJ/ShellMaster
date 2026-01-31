@@ -17,7 +17,7 @@
 
 ### 1. 克隆仓库
 ```bash
-git clone [https://github.com/你的用户名/shellmaster.git](https://github.com/你的用户名/shellmaster.git)
+git clone https://github.com/dreamerYCJ/shellmaster.git
 cd shellmaster
 
 ```
