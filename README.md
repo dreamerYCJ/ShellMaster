@@ -140,8 +140,3 @@ sm "使用ffmpeg录制屏幕" --debug
 
 ---
 
-*Built with ❤️ using LangChain & LangGraph*
-
-```
-
-```
