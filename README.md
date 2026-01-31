@@ -43,11 +43,10 @@ pip install -e .
 
 ### 4. 初始化模型与数据库 (关键步骤)
 
-由于模型和向量数据库被 `.gitignore` 忽略了，首次运行需要生成它们：
 
 * **下载 Embedding 模型** (解决国内网络问题):
 ```bash
-python download_model.py
+python download_em.py
 
 ```
 
