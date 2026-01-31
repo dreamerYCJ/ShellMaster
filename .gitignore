@@ -1,0 +1,34 @@
+# === 1. 忽略向量数据库 (这是重点) ===
+# 忽略 ingest 脚本生成的数据库目录
+src/shellmaster/chroma_db/
+chroma_db/
+
+# === 2. 忽略本地配置与敏感信息 ===
+# 忽略存储 API Key 和 Base URL 的配置文件
+.env
+
+# === 3. 忽略 Python 编译缓存 (垃圾文件) ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === 4. 忽略打包构建产物 ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === 5. 忽略虚拟环境 ===
+# 你的截图显示你用的是 conda，通常不需要忽略环境文件夹
+# 但如果你在项目里创建了 venv，加上这个：
+venv/
+env/
+.venv/
+
+# === 6. 忽略原始数据 (可选) ===
+# 如果 all.nl 和 all.cm 文件很大，或者版权受限，建议忽略
+# data/
+
+# === 7. 忽略 IDE 配置 ===
+.vscode/
+.idea/

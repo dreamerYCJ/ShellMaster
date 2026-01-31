@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shellmaster"
+version = "0.1.0"
+description = "AI-powered Linux Shell Assistant"
+authors = [{name = "Nav", email = "your@email.com"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langgraph",
+    "rich",
+    "click",
+    "pydantic"
+]
+
+# 🟢 关键：这里定义了 sm 命令指向哪里
+[project.scripts]
+sm = "shellmaster.client:main"
